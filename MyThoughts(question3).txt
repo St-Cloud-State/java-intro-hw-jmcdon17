@@ -1,0 +1,8 @@
+My thoughts (Question 3): For starters, both methods properly cleaned up their variable and were designed to be quite fast.
+That being said, I honestly think the method from Question 3 was better than Question 2.
+1. You shouldn't put your methods all inside the same place as your main.
+You should use a driver file for the main to help keep things organized. This is a good data-centered management approach.
+2. Another point is that Question 3 method only used 1 parameter for the functions.
+This makes things simpler and easier to use. This is a good process-centered approach because it allows for better growth/improvement.
+
+In conclusion, for both a data-centered and process-centered approach, I believe the Question 3 method is better.
