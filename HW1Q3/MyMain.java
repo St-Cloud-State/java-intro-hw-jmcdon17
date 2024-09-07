@@ -1,3 +1,4 @@
+package HW1Q3;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -63,7 +64,7 @@ public class MyMain {
         LinkedList<Person> linkList1 = new LinkedList<Person>();    // Java LinkedList class
         File file = new File("file.txt");
         InputStream iStream = new FileInputStream(file);
-
+        /*
         //Question 2 method:
         store(iStream, linkList1);
         display(System.out, linkList1); // System.out is the output stream
@@ -71,7 +72,7 @@ public class MyMain {
         display(System.out, linkList1);
         store(iStream, linkList1);
         display(System.out, linkList1);
-
+        */
         //Question 3 method:
         PersonList personList = new PersonList();
         personList.store(iStream);
